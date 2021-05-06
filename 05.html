@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            margin: 50px 20px;
+            /*後面輸入的數字個數決定的位置
+            margin: 上右下左;１
+            margin: 上下　右左;２
+            margin: 上　右左　下;３
+            margin: 上　右　下　左;４*/
+            margin-left: auto;
+            margin-right: auto;
+            /* 這兩個指令會讓區塊左右置中 */
+        }
+        .container
+        {
+            width: 1200px;
+            /* height: 300px; */
+            /* border: 5px solid rgba(29, 9, 116, 0.781); */
+            /* background-color:green; */
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .item
+        {
+            width: 192px;
+            /* height: 200px; */
+            background-color: rgb(23, 95, 77);
+            margin: 4px;
+            /* padding: 4px; */
+            border: 2.5px solid red;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        h3
+        {
+            padding: 10px;
+        }
+        p
+        {
+            padding: 8px;
+            color: seashell;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <p>AAAAAAAAAAAAAAAAAAAAA</p>
+    <div class="container">
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1"><h3>A</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At laboriosam quisquam et recusandae animi nobis, odit doloremque quaerat unde aspernatur sequi nam ipsa. Voluptatibus aliquam nihil laudantium quod quisquam iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quo dolor, doloremque, dolores voluptas animi dolorum, error doloribus sed quaerat perspiciatis? Numquam tempore aliquam ut voluptate, iste quas maiores! Omnis?</p></div>
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1"><h3>B</h3> <p>看起來草魚註冊，發達稱為，麻煩在那裡說著留言板，一名環節一款逐步水果，主營人群大全我看該公司也要風格原始碼，之中趕緊降價附近領域近日是這樣，男人整合基本上，需要上有減少予以上面買賣江湖網際進去思路溫州儘快，曝光指出答案球隊歌詞現有聽說按照收購本身，電視劇。</p></div>
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1">
+            <h3>C</h3> <p>性感吃了生存讓我銷售集體，計算機為了提供網遊網際動物如果，除了自信，所在之外，如同化工實力一級哥哥銷售取得推廣，分鐘起來臨床基本公斤預期可惜眼前早已幹什麼那樣。</p></div>
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1"><h3>D</h3> <p>性感吃了生存讓我銷售集體，計算機為了提供網遊網際動物如果，除了自信，所在之外，如同化工實力一級哥哥銷售取得推廣。</p></div>
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1"><h3>D</h3> <p>性感吃了生存讓我銷售集體，計算機為了提供網遊網際動物如果，除了自信，所在之外，如同化工實力一級哥哥銷售取得推廣。</p></div>
+        <div class="item"><img src="https://picsum.photos/200/300/?random=1"><h3>D</h3> <p>性感吃了生存讓我銷售集體，計算機為了提供網遊網際動物如果，除了自信，所在之外，如同化工實力一級哥哥銷售取得推廣。</p></div>
+    </div>
+
+</body>
+</html>

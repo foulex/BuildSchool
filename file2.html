@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table
+        {
+            border: 3px solid red;
+            border-collapse: collapse;
+        }
+        th
+        {
+            border: 1px double blue;
+        }
+        td
+        {
+            border: 1px dotted green;
+            font-size: xxx-large;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>作業二</p>
+    <!-- 表格 -->
+    <table border="3">
+        <caption>我是標題</caption>
+        <thead>
+            <tr>
+                <th scope="col">姓名</th>
+                <th scope="col">國文</th>
+                <th scope="col">英文</th>
+                <th scope="col">數學</th>
+                </tr>
+        </thead>
+        <tbody>
+<tr>
+    <th scope="row">123</th>
+    <td>456</td>
+    <td>456</td>
+    <td>456</td>
+</tr>
+<tr>
+    <th scope="row">456</th>
+    <td>456</td>
+    <td>456</td>
+    <td>456</td>
+</tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+<!-- 表單 -->
+<form action="">
+<div>
+    <label for="user_name">姓名：</label>
+    <input type="text" id="user_name">
+<!-- 用for與id可以產生連接 -->
+</div>
+<div>
+    <label>姓名：
+    <input type="text" id="user_name">
+</label>
+<!-- 效果一樣 -->
+</div>
+<div>
+    <label>密碼：
+    <input type="password">
+</label>
+</div>
+<div>
+    <label>電話：
+    <input type="tel">
+</label>
+</div>
+<div>
+    <label>信箱：
+    <input type="email">
+</label>
+</div>
+<div>
+    <label>年齡：
+    <input type="number" min="20" max="70">
+</label>
+</div>
+<div>
+    <label>區間：
+    <input type="range">
+</label>
+</div>
+<div>
+    <label>上傳：
+    <input type="file">
+</label>
+</div>
+<div>
+    <label>顏色：
+    <input type="color">
+</label>
+</div>
+<div>
+    <label>網站：
+    <input type="url">
+</label>
+</div>
+<div>
+    <label>搜尋：
+    <input type="search">
+</label>
+</div>
+<div>
+    <label>日期：
+    <input type="date">
+</label>
+</div>
+<div>
+    <label>時間：
+    <input type="time">
+</label>
+</div>
+<div>
+    <label>興趣：
+    <input type="checkbox">123
+    <input type="checkbox">456
+    <input type="checkbox">789
+    <input type="checkbox">000
+</label>
+</div>
+<div>
+    <label>性別：
+    <input type="radio" id="user_name">男
+    <input type="radio" id="user_name2">女
+</label>
+</div>
+<div>
+    <input type="button" value="送出(自行決定文字)">
+    <input type="submit">
+    <input type="reset">
+</div>
+</form>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<select></select>
+
+</body>
+</html>
