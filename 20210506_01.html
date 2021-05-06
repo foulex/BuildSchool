@@ -16,17 +16,139 @@
     {
         background-color: #fa0;
     }
-    .box{}
+    .box
+    {
+        background-color: burlywood;
+    }
     .box:hover .a
     {
         display: block;
     }
-
+    .box:hover .b
+    {
+        display: none;
+    }
+    .ia
+    {
+        display: none;
+    }
+    .box:hover .ia
+    {
+        display: block;
+    }
+    .box:hover .ib
+    {
+        display: none;
+    }
+    p
+    {
+        background-color: rgb(95, 75, 75);
+    }
+    p::before
+    {
+        content: '我是before';
+        color: aqua;
+        background-color: rgba(74, 224, 37, 0.644);
+    }
+    p::after
+    {
+        content: '我是after';
+        color: brown;
+    }
+    nav a
+    {
+        width: 300px;
+        background-color: cadetblue;
+        padding: 10px;
+        outline: 2px solid rgb(100, 34, 34);
+        margin: 999px 10px; /*高度無效，會有問題，會超到banner*/
+    }
+    .banner
+    {
+        height: 50px;
+        background-color: royalblue;
+    }
+    .nospace
+    {
+        background-color: salmon;
+        font-size: 0; /*去除空白，但是會影響子層*/
+        display: flex; /*另一種解法*/
+    }
+    .nospace a
+    {
+        background-color: seagreen;
+        font-size: 30px; /*所以在此再次將大小改回*/
+    }
+    .nospace a + a /*a後面所有的a*/
+    {
+        margin-left: -5px; /*另一種解法*/
+    }
+    .third a
+    {
+        width: 100px;
+        background-color: skyblue;
+        display: block;
+        margin: 10px;
+    }
+    h2
+    {
+        background-color: slategray;
+        text-align: center;
+    }
+    h2::after
+    {
+        display: block; /*block會自動換行*/
+        content: ''; /*要有內容才會有作用*/
+        width: 300px;
+        height: 5px;
+        background-color: tomato;
+        margin: auto; /*置中方法*/
+    }
+    li
+    {
+        display: flex;
+    }
+    li a
+    {
+        display: block;
+        background-color: turquoise;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 5px solid rgba(0, 0, 0, 0);
+    }
+    li a.active
+    {
+        border-bottom-color: rgb(0, 0, 0);
+    }
 </style>
 <body>
     <div class="box">
         <div class="a">aaa</div>
         <div class="b">bbb</div>
+        <img class="ia" src="https://picsum.photos/100/100/?random=1">
+        <img class="ib" src="https://picsum.photos/100/100/?random=2">
     </div>
+    <p>我是內容</p>
+    <nav>
+        <a href="#">123</a>
+        <a href="#">123</a>
+    </nav>
+    <p class="banner">BANNER</p>
+    <div class="nospace">
+        <a href="#">font</a>
+        <a href="#">font</a>
+    </div>
+    <div class="third">
+        <a href="#">font</a>
+        <a href="#">font</a>
+    </div>
+    <h2>底線測試</h2>
+    <li>
+        <ul><a class="active" href="#">1</a></ul>
+        <ul><a href="#">2</a></ul>
+        <ul><a href="#">3</a></ul>
+        <ul><a href="#">4</a></ul>
+        <ul><a href="#">5</a></ul>
+    </li>
 </body>
 </html>

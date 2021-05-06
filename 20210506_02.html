@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    nav
+    {
+        background-color: rgb(121, 140, 190);
+        justify-content: center;
+        display: flex;
+
+    }
+    a
+    {
+        border-bottom: 10px solid transparent;
+        padding: 10px;
+        font-size: 30px;
+        background-color: rgb(57, 87, 168);
+        text-decoration: none;
+    }
+    a.active
+    {
+        border-bottom-color: rgb(240, 52, 18);
+    }
+    .box
+    {
+        background-color: tomato;
+        width: 500px;
+        height: 300px;
+        display:flex;
+        margin: auto;
+        justify-content: flex-start;
+        flex-direction: row; /*改變軸的方向*/
+        flex-wrap: wrap;
+        align-items:flex-end;
+        align-content: center;
+    }
+    .item
+    {
+        background-color: rgb(75, 236, 75);
+        width: 130px;
+        /* height: 40px; */
+        font-size: 30px;
+        margin: 10px;
+    }
+    .item:first-child
+    {
+        height: 140px;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+    </nav>
+    <div class="box">
+        <p class="item">AAAAAAAA蝦蛤AAAA</p>
+        <p class="item">B</p>
+        <p class="item">CCC</p>
+        <p class="item">DDDD DDD</p>
+        <p class="item">E</p>
+    </div>
+</body>
+</html>
