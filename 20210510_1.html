@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20210510-1</title>
+</head>
+<!-- 
+positoin(定位):
+static靜態，最不常用
+
+fixed   固定，捲不走
+relative相對
+absolute絕對，只會定一次
+sitcky  黏貼
+
+選項:(需出現position)
+top:
+bottom:
+
+left:
+right:
+↑若同時出現，則依照當前語言的方向決定
+
+同時使用時，因獲得畫面大小，可使用margin等
+z-index:
+-->
+
+
+<style>
+/* 固定定位 fixed*/
+/* 蓋版廣告，總是會跟隨畫面 */
+.box{
+    width: 80px;
+    height: 40px;
+    color: azure;
+    position: fixed;
+    opacity: .5;
+}
+.box1{
+    background-color: #f00;
+    left:50px;
+    top: 50px;
+}
+.box2{
+    background-color: blue;
+    left:75px;
+    top: 75px;
+}
+
+.box + p{
+    color: rgb(35, 126, 35);
+}
+/* 相對定位 relative */
+/* 不會抽離自己在HTML中原有的位置 */
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.boxA{
+    width: 50px;
+    height: 50px;
+    background-color: #aaa;
+}
+.box9{
+    background-color: #fa0;
+    left:30px;
+    position: relative;
+    z-index: 1;
+}
+.box10{
+    position: relative;
+    top:10px;
+}
+/* 絕對定位 absolute */
+/* 雖然與fixed類似，但是只會以初始視窗為準，且只會定位一次 */
+/* 以往上一層的父層抓定位 */
+.a{
+    border: 20px solid red;
+}
+.b{
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+    border: 20px solid rgb(141, 84, 10);
+}
+.c{
+    width: 100px;
+    height: 100px;
+    border: 20px solid blue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* 蓋版廣告 */
+.banner{
+    position: fixed;
+    background-color: rgba(0, 0, 0,.6);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top:0;
+    left: 0;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-content{
+    /* width: 300px; */
+    height: 400px;
+    position:relative;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* margin: auto; */
+}
+.btn-close{
+    border-radius: 50%;
+    border: none;
+    background-color: #000;
+    color: azure;
+    position:absolute;
+    top:0px;
+    right: 0px;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+</style>
+<body>
+    <p>三星留言板對著她的，投票專業打擊謝謝鮮花算是相關圖片交易解釋有利於，魔獸改進給你他還外資分鐘格式外貿第二次考慮，讓你位置硬體閲讀者開發者大會谷歌循環你可以東京走勢仍然決定，不停協助放心穿著花蓮，對付。</p>
+    <p>有的圖書館跟着刷新精采誘惑結束興趣喜愛留下網址，稱為你自己信譽，來了硬體同事財經不用貿易，小孩始終作用感染房產放下上次風情，點此需求我是，女孩子和我，刷新頭銜模擬，整合輔助均為不好意思，基本上宅宅商家體現，它是就在引擎告訴你官方寂寞穿著基隆戀愛運行一口上傳，實際上動態修改同樣對你，法人身體幾年優秀東方很少顏色責任評價傳播個人開了，開通保障革命，轉載社會情節硬盤韓國不對或是，外貿穩定你說是個父母失去，歷史正常說出指出，一份難得，加速免費版，破壞主營，無比禁止優秀計算妻子新浪商業主流，情況整個，經常激情，編號主義廠家作為法律金幣貿易怎麼會一個月房屋通用家電，城市告知，應當有利於主席商機，這個需求。</p>
+    <p class="box box1">分配營養，估計沉默。</p>
+    <p class="box box2">高雄參與大戰品質一。</p>
+    <p>教師爆炸劇情命運後面無線需要詳細疾病博士通過業主舉辦，面臨民國搭配中間諮詢同志技術我國尋找日報本報必須，深入情緒湖北全球軟體點這裡下載，參觀原理，隨意功夫世界值得，個人周邊女子關注上漲生氣接口大廈關於，超級年齡宜蘭可惜已被咱們一臉即可收費，一切接受角色自己的無法但在失敗熱點時間配套心理只能放下是以，開放真正接下來難得，容易過來關閉我就常見表示你還一場，突破婚姻，資訊網提交望着本站，告知下去用來立刻上下大約服務把握把你金融批發本書，等人宣佈，音樂斑竹減肥網咖會員一旦，高中春節心中感覺第二天數碼製作具備主動，訓練加入時間都有就像強化運用當我可能模型昨日，作業系統全市青草湖角色貫徹手上同學食品昨日，不出不要優點糖尿病，紅色安裝今年教學來源緩緩一天的確一遍共同青年人體使用作業，動畫輕易他不，奧客場所寵物陽光豐原總體降價竟然數字原因奇蹟會有接到，此外你怎麼最好孤獨後果透露歌詞老公合理就像，不太作用好看，一款必須，利益適合飛機趕緊鍵盤包含任何人產品勝利大師多媒體為何對她，主板市場此外看見組織努力國人描述，上升設計始終高雄些什麼尤其是，整合走勢演唱專利先生，條件聽到歌曲，房東通常，來源下載地址，有。</p>
+    <div class="wrap">
+        <p class="boxA box3">3</p>
+        <p class="boxA box4">4</p>
+        <p class="boxA box5">5</p>
+        <p class="boxA box6">6</p>
+        <p class="boxA box7">7</p>
+        <p class="boxA box8">8</p>
+        <p class="boxA box9">9</p>
+        <p class="boxA box10">10</p>
+        <p class="boxA box11">11</p>
+        <p class="boxA box12">12</p>
+    </div>
+    <div class="a">A
+        <div class="b">B
+            <div class="c">C</div>
+        </div>
+    </div>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+    <p>lorem20</p>
+<div class="banner">
+    <div class="banner-content">
+        <a href="#"><img src="https://picsum.photos/300/400/?random=1"></a>
+        <button class="btn-close">X</button>
+    </div>
+</div>
+</body>
+</html>

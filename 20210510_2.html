@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按鈕測試</title>
+</head>
+<style>
+    .box{
+        width: 250px;
+        border: 5px solid red;
+        position: relative;
+        padding: 10px;
+
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+
+    }
+    .box:hover .overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 100px;
+        border-radius: 10%;
+    }
+    /* ---------------------------------- */
+    .wrap{
+        width: 960px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item{
+        width: 296px;
+        padding: 5px;
+        margin: 5px;
+        border: 2px solid black;
+        box-shadow: 3px 3px rgba(180, 19, 19, 0.2);
+        border-radius: 2%;
+        position: relative;
+    }
+    .contents{
+        padding: 5px;
+    }
+    .overlays{
+        width:100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+    }
+    .item:hover .overlays{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlays a{
+        width: 70%;
+        text-decoration: none;
+        font-size: 32px;
+        text-align: center;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.75);
+        margin: 5px;
+        padding: 5px;
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="content white">對於我的，有限責任公司害怕唱片一是同意某種義務，規格留言板採取品質看了用戶名解壓密碼收入姑娘必然他。</div>
+        <div class="overlay black">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=1">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=2">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=3">
+                <h3>title</h3>
+                <p>通信戰爭自由</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=4">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=5">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=6">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="contents">
+                <img src="https://picsum.photos/100/100/?random=7">
+                <h3>title</h3>
+                <p>通信戰爭自由農業碩士解放網際基地理論時期篇文章足。</p>
+            </div>
+            <div class="overlays">
+                <a href="#">App Store</a>
+                <a href="#">Google Play</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

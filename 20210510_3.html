@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line test</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        font-size: 120px;
+        position: relative;
+
+    }
+    footer{
+        font-size: 120px;
+        height: 500px;
+        }
+
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info .abc{
+        position: sticky;
+        top:10px;
+        left: 10px;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 100px 0px; */
+
+
+    }
+    .box:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    .box:nth-child(odd) .content:first-child{
+        border-right: 5px dotted red;
+    }
+    .box:nth-child(even) .content:first-child{
+        border-left: 5px dotted red;
+    }
+    .box .content{
+        width: 50%;
+        padding: 100px 20px;
+
+    }
+</style>
+<body>
+    <header>header</header>
+    <div class="info">
+    <img class="abc" src="https://picsum.photos/200/100/?random=1"><img src="https://picsum.photos/200/100/?random=2">
+
+        <div class="box">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error dolor. Cupiditate labore consequatur porro dicta officia magni tenetur praesentium.</div>
+            <div class="content">不同所需所謂虛擬缺乏，化學首次為主，語。</div>
+        </div>
+        <div class="box">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error dolor. Cupiditate labore consequatur porro dicta officia magni tenetur praesentium.</div>
+            <div class="content">不同所需所謂虛擬缺乏，化學首次為主，語。</div>
+        </div>
+        <div class="box">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error dolor. Cupiditate labore consequatur porro dicta officia magni tenetur praesentium.</div>
+            <div class="content">不同所需所謂虛擬缺乏，化學首次為主，語。</div>
+        </div>
+        <div class="box">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error dolor. Cupiditate labore consequatur porro dicta officia magni tenetur praesentium.</div>
+            <div class="content">不同所需所謂虛擬缺乏，化學首次為主，語。</div>
+        </div>
+    </div>
+    <footer>footer</footer>
+</body>
+</html>

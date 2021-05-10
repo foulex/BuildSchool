@@ -20,7 +20,7 @@
     .item
     {
         background-color: rgb(194, 158, 158);
-        width: 300px;
+        width: 0px;
         height: 100px;
         margin: 5px;
         font-size: 60px;
@@ -31,11 +31,15 @@
     }
     .item2
     {
+        flex-grow: 3; /*拿剩下的空間與比例*/
+
         flex-shrink: 1.5; /*被壓縮的比例*/
     }
     .item3
     {
-        flex-basis:120px; /*以主軸來看時的長度*/
+        flex-grow: 1.5; /*拿剩下的空間與比例*/
+
+        /* flex-basis:120px; 以主軸來看時的長度 */
     }
 </style>
 <body>
