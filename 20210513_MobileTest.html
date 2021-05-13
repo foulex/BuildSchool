@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20210513_MobileTest</title>
+</head>
+<style>
+    /* [class*="col-"] {內容} 
+    將所有class名稱中有col-的，全部選取並作內容*/
+    [class*="col-"] {
+        box-sizing: border-box;
+    }
+/* 直接將整個畫面切割成12份(常用數字公約數)的系統 */
+    .col-1 {width:  8.333333%; }
+    .col-2 {width: 16.666667%; }
+    .col-3 {width: 25%       ; }
+    .col-4 {width: 33.333333%; }
+    .col-5 {width: 41.666667%; }
+    .col-6 {width: 50%       ; }
+    .col-7 {width: 58.333333%; }
+    .col-8 {width: 66.666667%; }
+    .col-9 {width: 75%       ; }
+    .col-10{width: 83.333333%; }
+    .col-11{width: 91.666667%; }
+    .col-12{width: 100%      ; }
+/* 直接在class裡面寫入md版本，這樣在視窗符合時會自動改變 */
+    @media screen and (min-width:768px) {
+    .col-md-1 {width:  8.333333%; }
+    .col-md-2 {width: 16.666667%; }
+    .col-md-3 {width: 25%       ; }
+    .col-md-4 {width: 33.333333%; }
+    .col-md-5 {width: 41.666667%; }
+    .col-md-6 {width: 50%       ; }
+    .col-md-7 {width: 58.333333%; }
+    .col-md-8 {width: 66.666667%; }
+    .col-md-9 {width: 75%       ; }
+    .col-md-10{width: 83.333333%; }
+    .col-md-11{width: 91.666667%; }
+    .col-md-12{width: 100%      ; }
+    }
+
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+        width: 94%;
+        border: 2px solid red;
+        margin: 3%;
+        box-sizing: border-box;
+    }
+    .wrap .col{
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.5% 0.35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin: auto; */
+        align-content: space-between;
+        border: 2px solid rgb(47, 0, 255);
+
+    }
+    img{
+        width: 100%;
+        /* border: 2px solid red; */
+        border-radius: 5%;
+
+    }
+    h3{
+        border: 2px solid rgb(0, 255, 21);
+        background-color: green;
+        margin: auto;
+        
+    }
+    p{
+        border: 2px solid red;
+        background-color: rgb(255, 170, 170);
+        text-align: center;
+        margin: bottom;
+        flex: auto;
+    }
+    @media screen and (min-width:768px){
+        .wrap .col{
+            width: 33.333333%;
+        }
+        @media screen and (min-width:992px){
+        .wrap .col{
+            width: 25%;
+        }
+    }
+    @media screen and (min-width:1200px){
+        .wrap .col{
+            width: 16.666667%;
+        }
+    }
+</style>
+<body>
+    <div class="wrap">
+        <div class="col">
+            <img src="\pics\20210513\300px-Always_has_been.jpg">
+            <h3>title</h3>
+                <p>工程師那麼說法討論適應，收到二手尤其是。</p>
+        </div>
+        <div class="col">
+            <img src="\pics\20210513\300px-Tuxedo_Winnie_the_Pooh_2_panel.jpg">
+            <h3>title</h3>
+                <p>工程師那麼說法討論適應，收到二手尤其是。</p>
+        </div>
+        <div class="col">
+            <img src="\pics\20210513\300px-Unsettled_Tom.jpg">
+            <h3>title</h3>
+                <p>工程師那麼說法討論適應，收到二手尤其是。工程師那麼說法討論適應，收到二手尤其是。工程師那麼說法討論適應，收到二手尤其是。工程師那麼說法討論適應，收到二手尤其是。工程師那麼說法討論適應，收到二手尤其是。</p>
+        </div>
+        <div class="col">
+            <img src="\pics\20210513\bird.jpg">
+            <h3>title</h3>
+            <p>工程師那麼說法討論適應，收到二手尤其是。</p>
+        </div>
+        <div class="col">
+            <img src="\pics\20210513\fire.jpg">
+            <h3>title</h3>
+            <p>工程師那麼說法討論適應，收到二手尤其是。</p>
+        </div>
+        <div class="col">
+            <img src="\pics\20210513\The_What_Banner.jpg">
+            <h3>title</h3>
+            <p>工程師那麼工程師那麼說法討論適應，收到二手尤其是。工程師那麼說法討論適應，收到二手尤其是。說法討論適應，收到二手尤其是。</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<style>
+    .box{
+        width: 100%;
+        background-color: rgb(255, 227, 227);
+        transition: 5s;
+    }
+    .box div{
+        padding: 10px;
+    }
+
+    /* @media 裝置類型 and (條件一) and (條件二) {符合時執行的內容} 
+    and 的前後必須有空格 
+    依然受到順序影響*/
+
+/* 平板以上 */
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        .box{
+            background-color: rgb(209, 208, 132);
+            border-radius: 25%;
+            transition: 5s;
+        }
+    }
+    /* 992px 舊裝置的大小 */
+    /* 平板橫向以上 */
+    @media screen and (min-width:1024px) {
+        .box{
+            background-color: rgb(65, 160, 62);
+            transition: 5s;
+        }
+    }
+    /* 桌機以上 */
+    @media screen and (min-width:1200px) {
+        .box{
+            background-color: rgb(22, 100, 87);
+            color: beige;
+            font-weight: 900;
+        }
+    }
+</style>
+<body>
+    <div class="box">
+        <div>床上畢竟西安知識問道只需信用，領先答案不要這位友情業務出席避免友情連結接下來支撐更大大人，特性皮膚。</div>
+        <div>會員眾人心靈動力地下字幕爭取不說每個，戀愛沒想到編輯服務隨便同樣力量瀏覽器，時間裝飾一件進口可愛電。</div>
+        <div>一直奇怪遠遠移動此時將軍相互，為了收集半年開口硬盤網際，轎車主流會員價雙手期限查找上下，因此力量日。</div>
+    </div>
+</body>
+</html>
