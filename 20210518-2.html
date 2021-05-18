@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選單</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .header{
+        background-color: #833;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .header .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo{
+        display: block;
+        background-color: rgb(245, 142, 142);
+        width: 70px;
+        height: 40px;
+    }
+
+
+
+    
+    #menu-control{
+        display: none;
+    }
+    #menu-control:checked ~ .header .main-nav{
+        display: block;
+    }
+    @media screen and (max-width:767px){
+            .hb{
+            width: 40px;
+            height: 40px;
+            border: none;
+            position: relative;
+            background-color: black;
+        }
+     /* 做出三條白橫條 */
+        .hb span{
+            position: absolute;
+            width: 32px;
+            height: 2px;
+            background-color: rgb(255, 255, 255);
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        .hb span:first-child{
+            transform: translateY(-10px);
+        }
+        .hb span:last-child{
+            transform: translateY(10px);
+        }
+        .main-nav{
+            background-color: rgb(226, 185, 0);
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            display: none;
+        }
+        .main-nav a{
+            display: block;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+    }
+    }
+    #menu-control:checked ~ .header .main-nav{
+        display: block;
+    }
+    @media screen and (min-width:768px) {
+        .main-nav{
+            display: flex;
+            align-items: center;
+        }
+        .main-nav a{
+            text-decoration: none;
+            padding: 10px;
+        }
+    }
+</style>
+<body>
+    <input type="checkbox" id="menu-control">
+    <div class="header">
+        <div class="container">
+
+            <a href="#" class="logo">LOGO</a>
+
+            <label for="menu-control" class="hb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="main-nav">
+                <a href="#">menu item</a>
+                <a href="#">menu item</a>
+                <a href="#">menu item</a>
+                <a href="#">menu item</a>
+                <a href="#">menu item</a>
+            </nav>
+
+        </div>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero alias exercitationem facere rem placeat soluta recusandae aliquid officiis aliquam est!</p>
+    <p>A repellat corrupti nemo deserunt est sapiente itaque, ducimus porro non iusto quibusdam temporibus ad voluptatum in debitis necessitatibus veniam?</p>
+    <p>Laborum sed exercitationem vitae accusantium veniam corrupti maiores! Saepe libero veniam qui velit iure odio sunt autem eligendi tenetur necessitatibus?</p>
+    <p>Ipsa dolorum beatae earum reiciendis atque obcaecati facilis autem, suscipit quasi placeat facere quis harum laudantium odio neque, ipsam dolorem.</p>
+    <p>Numquam dolorem, at quaerat qui officia id exercitationem architecto, ab impedit aliquam repudiandae voluptate tempora minima laboriosam perspiciatis voluptatum voluptatem!</p>
+    <p>Rerum assumenda voluptatem magni eveniet autem maxime sed totam, libero repellendus. Voluptate, dignissimos quidem voluptas atque architecto provident at. Delectus.</p>
+    <p>Repudiandae id ipsa ducimus a. Quibusdam labore officia reprehenderit alias, est, facere doloremque dolorum cumque, commodi fugit praesentium? Consequuntur, iusto?</p>
+    <p>Architecto cum nam exercitationem, atque libero quisquam, corporis, quidem perferendis dolores corrupti debitis ex rerum aut dolorum ipsa recusandae fugit.</p>
+    <p>Quasi, repudiandae amet, quod saepe nam velit, eaque asperiores dignissimos culpa eum accusantium! Dignissimos, praesentium. Aliquam labore consequuntur a consectetur!</p>
+    <p>Reiciendis accusantium iusto omnis corrupti, natus inventore animi voluptates sapiente quo et repudiandae minus maxime magnam ab similique possimus officia!</p>
+</body>
+</html>

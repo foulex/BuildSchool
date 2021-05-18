@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    /* 宣言屬性 */
+    :root{
+        --ooxx:15px;
+    }
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info{
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .box{
+        width: 25%;
+        box-sizing: border-box;
+        padding: var(--ooxx);
+    }
+    [class*="col-"]{
+        padding-left: calc(var(--ooxx)*-1);
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .col-1 {width:  8.333333%; }
+    .col-2 {width: 16.666667%; }
+    .col-3 {width: 25%       ; }
+    .col-4 {width: 33.333333%; }
+    .col-5 {width: 41.666667%; }
+    .col-6 {width: 50%       ; }
+    .col-7 {width: 58.333333%; }
+    .col-8 {width: 66.666667%; }
+    .col-9 {width: 75%       ; }
+    .col-10{width: 83.333333%; }
+    .col-11{width: 91.666667%; }
+    .col-12{width: 100%      ; }
+
+    .menu{
+        background-color: #Aff;
+        height: 100%;
+        position: relative;
+    }
+</style>
+<body>
+    <div class="container row">
+        <div class="menu col-3">
+            <li>
+                <ul>
+                    1
+                </ul>
+                <ul>
+                    2
+                </ul>
+                <ul>
+                    3
+                </ul>
+            </li>
+        </div>
+        <div class="info col-9">
+            <div class="box">
+                <img src="https://picsum.photos/200/200/?random=1">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum corporis reprehenderit minima nisi tenetur placeat eaque laudantium. Facilis, consequatur consequuntur.</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/200/200/?random=2">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum corporis reprehenderit minima nisi tenetur placeat eaque laudantium. Facilis, consequatur consequuntur.</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/200/200/?random=3">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum corporis reprehenderit minima nisi tenetur placeat eaque laudantium. Facilis, consequatur consequuntur.</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/200/200/?random=4">
+                <h3>title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum corporis reprehenderit minima nisi tenetur placeat eaque laudantium. Facilis, consequatur consequuntur.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
