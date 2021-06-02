@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button1" onclick="Event1(event, this)">按鈕一</button>
+    <button id="button2">按鈕二</button>
+    <button id="button3">按鈕三</button>
+
+<script>
+    function Event1(event, element){
+        alert(`${event.constructor.name}事件類型的 ${event.type}事件`);
+        alert(element.innerHTML);
+    }
+
+    var btn2 = document.getElementById("button2");
+    btn2.onclick=function(event){
+        alert(`${event.constructor.name}事件類型的 ${event.type}事件`);
+        alert(element.innerHTML);
+    }
+
+    var btn3 = document.getElementById("button3");
+    btn3.addEventListener('click', function(event){
+        alert(`${event.constructor.name}事件類型的 ${event.type}事件`);
+        alert(element.innerHTML);
+    });
+</script>
+</body>
+</html>

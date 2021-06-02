@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="title" class="a b">TITLE</h1>
+<script>
+let a ='AA'
+console.log(a);
+
+let b = [
+    {A:100, B:'s'},
+    {A:300, B:'ss'},
+    {A:200, B:'sss'},
+    {A:100, B:'ssss'}
+]
+console.table(b)
+
+let c =document.getElementById('title');
+console.dir(c)
+
+console.warn('warn');
+console.error('error');
+
+//for
+for (let i=0;i<b.length;i++){
+    console.log(`A: ${b[i].A},B: ${b[i].B}`);
+}
+//forEach
+b.forEach(x=>{
+    console.log(`A:${x.A}, B:${x.B}`);
+})
+//for in
+for(let item in b){
+    console.log(item);
+    console.log(`A: ${b[item].A}, B: ${b[item].B}`);
+}
+//for of
+for (let item of b){
+    console.log(item);
+    console.log(`A: ${item.A}, B: ${item.B}`);
+}
+
+</script>
+</body>
+</html>

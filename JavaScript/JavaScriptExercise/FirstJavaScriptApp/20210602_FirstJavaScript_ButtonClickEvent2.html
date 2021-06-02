@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="displayMessage()">顯⽰示個⼈人資訊1</button>
+    <button id="btn2">顯⽰示個⼈人資訊2</button>
+    <div id="msg"></div>
+
+    <script>
+    let name ="Kevin", age =32, gender =true;
+    const msg = document.getElementById("msg");
+
+        function displayMessage(){
+            let genderChinese = gender == true ? "男" :"女";
+            msg.innerText = `${name}, ${age}, ${genderChinese}`;
+        }
+    //const btn2 = document.getElementById("btn2");
+    //btn2.addEventListener...
+        document.getElementById("btn2").addEventListener("click",function(){
+            document.querySelector("#msg").innerHTML="<h3 class='bg-danger'>Foulex</h3>";
+        });
+</script>
+</body>
+</html>
