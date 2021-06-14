@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeout Change Color</title>
+</head>
+
+<body>
+    <h1>setTimeout() - 定時器</h1>
+    <button id="Start">Start</button>
+    <button id="Stop">Clear</button>
+
+    <script type="module">
+        import { $got, $c, $cc, getRandom } from "../Modules/Mymodules.js";
+
+        const colors = ["green", "blue", "yellow", "red", "orange", "pink", "purple", "gray", "black"];
+        let timeoutID;
+//改成onload才能執行
+        window.onload =function(){
+            $got ("#Start").addEventListener("click",function(){
+                timeoutID = setTimeout(changeColor,500)
+            })
+            $got ("#Stop").addEventListener("click",function(){
+                clearTimeout(timeoutID);
+                document.body.style.backgroundColor = "white";
+            })
+        }
+
+        // function Start() {
+        //     timeoutID = setTimeout(changeColor, 500);
+        // }
+
+        function changeColor() {
+            let random = getRandom(0, 8);
+            document.body.style.backgroundColor = colors[random];
+            console.log(random);
+        }
+
+        // function Stop() {
+        //     clearTimeout(timeoutID);
+        //     document.body.style.backgroundColor = "white";
+        //     alert("setTimeout已清除");
+        // }
+
+
+    </script>
+</body>
+
+</html>

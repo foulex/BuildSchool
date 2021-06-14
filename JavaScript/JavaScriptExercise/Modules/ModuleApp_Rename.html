@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModuleApp_Rename</title>
+</head>
+
+<body>
+
+    <script type="module">
+        import { $got, $c as $create, $cc } from '../Modules/Mymodules.js';
+
+        let h1 = $create('h1');
+        document.body.appendChild(h1);
+
+        let div = $create('div');
+        document.body.appendChild(div);
+
+        $got('h1').innerText = "Module模組的應用";
+        $got('div').innerHTML = "Foulex";
+        $cc(document.body,'h2',"Module模組h2");
+
+    </script>
+</body>
+
+</html>

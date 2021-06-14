@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <!-- 在此新增無序清單 -->
+    </div>
+    <script>
+        //1.取得目標元素載體
+        let box = document.querySelector('.box');
+
+        //2.生成DOM物件(請先設計好DOM Tree)
+        //ul
+        //  li
+        let ul = document.createElement('ul');
+        let li = document.createElement('li');
+        li.innerText = '文字';
+
+        //3. 生成的DOM物件append給載體
+        ul.appendChild(li);
+        box.appendChild(ul);
+
+        document.querySelector('#btn').addEventListener('click',function(){
+            let li = document.createElement('li');
+            li.innerText = '文字2';
+            ul.appendChild(li);
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let list = [
+            { item: '啤酒', type: '喝的' },
+            { item: '汽水', type: '喝的' },
+            { item: '火鍋', type: '吃的' },
+            { item: '燒烤', type: '吃的' },
+            { item: '冰淇淋', type: '吃的' },
+        ]
+
+        //找第一個"吃的"東西
+        let r1 = list.find(x => x.type == '吃的');
+        console.log(r1);
+
+        //找所有"吃的"東西
+        let r2 = list.filter(x => x.type == '吃的');
+        console.log(r2);
+
+        //找"冰淇淋"在第幾個位置
+        let ice = list.find(x => x.item == '冰淇淋');
+        let r3 = list.indexOf(ice);
+        console.log(`冰淇淋在第${r3 + 1}個位置`);
+
+        let r3_1 = list.findIndex(x => x.item == '冰淇淋');
+        console.log(`冰淇淋在第${r3_1 + 1}個位置`);
+
+        //用list生成新的集合
+        //["啤酒","汽水","火鍋"...]
+        let r4 = list.map(x => x.item);
+        console.log(r4);
+
+        //用list生成新的集合
+        /*[
+            {Id: 5, Name: '啤酒'},
+            {Id: 4, Name: '汽水'},
+            {Id: 3, Name: '火鍋'},
+            {Id: 2, Name: '燒烤'},
+            {Id: 1, Name: '冰淇淋'},
+          ]*/
+        let r5 = list.amp(x => {
+            return {
+                Id: list.length - list.indexOf(x), Name: x.item
+            }
+        })
+
+        //排序
+        let num_1 = [9, 6, 4, 2, 1];
+        let r6 = num_1.sort();
+        console.log(r6);
+
+        let num_2 = [10000, 10, 100, 1, 101];
+        //直接sort會變成1,10,100,10000,101
+        let r7 = num_2.sort((a, b) => { return a - b });
+        console.log(r7);
+
+        //拿r5用Id排序
+        r8 = r5.sort((a, b) => { return a.Id - b.Id });
+
+        //十二生肖排序
+        //['豬','龍','鼠','狗','羊','雞','馬']
+        let Zodiac = ['鼠', '牛', '虎', '兔', '龍', '蛇', '馬', '羊', '猴', '雞', '狗', '豬'];
+        let quiz = ['豬', '龍', '鼠', '狗', '羊', '雞', '馬'];
+        let quiz_ans = quiz.sort((a, b) => { return Zodiac.indexOf(a) - Zodiac.indexOf(b) });
+        console.log(quiz_ans);
+        //自己寫groupBy
+        Array.prototype.groupBy = function (prop) {
+            return this.reduce(function (groups, item) {
+                const val = item[prop];
+                groups[val] = groups[val] || [];
+                groups[val].push(item);
+                return groups;
+            }, {});
+        }
+        let r9 = list.groupBy('type');
+        console.log(r9);
+    </script>
+</body>
+
+</html>

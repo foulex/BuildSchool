@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<body>
+<div class="jumbotron bg-info">
+    <h1>用Array陣列資料結合DOM API動態產生Table</h1>
+</div>
+<div id="container">
+
+</div>
+<script>
+    let Titles  = ['國家',  '確診', '死亡', '治癒'];
+    let Taiwan  = ['台灣',  41,     1,      12];
+    let China   = ['中國',  80134,  2914,   44595];
+    let America = ['美國',  9665,   146,    694];
+
+    let Global  = [Taiwan, China, America];
+
+    let container = document.getElementById("container");
+    let table = document.getElementById("table");
+
+    let thead = document.createElement("thead");
+    let tbody = document.createElement("tbody");
+
+    window.onload=function(){
+        //建立table內容
+        createTable(Titles, Global);
+        container.appendChild(table);
+    }
+        function createTable(titles, rowsArray){
+            // AddThead();
+            // AddTbody();
+
+            //thead
+            AddRow(thead,titles);
+            rowsArray.forEach(function(item){
+                AddRow(tbody, item);
+            });
+        }
+
+        function AddRow(target, rowData){
+            let _row = document.createElement('tr');
+
+            rowData.forEach(function(col){
+                let td=document.createElement('td');
+                let tdText= document.createTextNode(col);
+                td.appendChild(tdText);
+                _row.appendChild(td);
+            });
+            target.appendChild(_row); //thead or tbody
+            table.appendChild(target);
+        }
+</script>
+</body>
+</html>

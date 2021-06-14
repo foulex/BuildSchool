@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="one()">Click-1</button>
+    <button>Click-2</button>
+    <button>Click-3</button>
+
+    <script>
+        //1.直接在HTML Tag裡定義onclick屬性
+        function one(){
+            alert('one'); }
+        //2.js 控制 DOM 物件 onclick
+        function two(){
+            alert('two'); }
+        let btn2 = document.getElementsByTagName('button')[1];
+        btn2.onclick = two ;
+        //btn2.onclick = function(event){
+        //two('ABC');
+        //};
+        //3.使用addEventListener新增監聽事件
+        function three(){
+            alert('three'); }
+        let btn3 = document.getElementsByTagName('button')[2];
+        btn3.addEventListener('onclick',three);
+
+    </script>
+</body>
+</html>
