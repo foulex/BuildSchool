@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHR iPad.json filter</title>
+</head>
+
+<body>
+    <h1>XHR iPad.json</h1>
+    <button id="btnGetJSON">Request JSON</button>
+    <div id="msg"></div>
+    <script>
+        const url = "https://raw.githubusercontent.com/apprunner/FileStorage/master/iPadAir2020_Data.json";
+        let msg = document.getElementById("msg");
+
+        window.onload = function () {
+            document.querySelector("#btnGetJSON").addEventListener("click", requestIpadJSON);
+        }
+        let ipadArray = [];
+        let xhr = new XMLHttpRequest();
+
+        function requestIpadJSON() {
+            xhr.onload = function () {
+                ipadArray = JSON.parse(this.responseText);
+
+                let query1 = ipadArray.filter(i=>i.price>250);
+            }
+            xhr.open("GET", url);
+            xhr.open();
+        }
+    </script>
+</body>
+
+</html>

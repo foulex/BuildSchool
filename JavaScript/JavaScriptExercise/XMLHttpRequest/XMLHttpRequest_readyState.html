@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLHttpRequest_readyState</title>
+</head>
+
+<body>
+    <h1>XMLHttpRequest_readyState</h1>
+    <button id="button1">XHR JSON1</button>
+
+    <button id="btnclear">RESET</button>
+    <div id="msg"></div>
+
+    <script type="module">
+        import { $g } from "../Modules/Myhelpers.js";
+
+        let btn1 = $g("#button1").addEventListener("click", requestJSON1);
+
+        $g("#btnclear").addEventListener("click", () => { msg.innerText = ""; });
+
+        const url = "https://raw.githubusercontent.com/apprunner/FileStorage/master/iPad_DataFixed.json";
+        let xhr = new XMLHttpRequest();
+        let msg = $g("#msg");
+
+        function requestJSON1() {
+            xhr.onload = function () {
+                /*if (xhr.readyState == 4 && xhr.status == 200) {
+                    msg.innerText = this.responseText;
+                }
+                else {
+                    msg.innerText = '發生錯誤，HTTP Response錯誤代碼' + xhr.status;
+                }*/
+                if (xhr.readyState == 4 && xhr.statusText == "OK") {
+                    msg.innerText = this.responseText;
+                }
+                else {
+                    msg.innerText = '發生錯誤，HTTP Response錯誤代碼' + xhr.status;
+                }
+            }
+            xhr.open("GET", url);
+            xhr.send();
+        }
+    </script>
+</body>
+
+</html>

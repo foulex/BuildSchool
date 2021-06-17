@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLHttpRequest請求JSON</title>
+</head>
+
+<body>
+    <h1>用XMLHttpRequest請求JSON資料</h1>
+    <button id="button1">XHR JSON1</button>
+    <button id="button2">XHR JSON2</button>
+    <button id="button3">XHR JSON3</button>
+    <button id="button4">XHR JSON4</button>
+    <button id="btnclear">RESET</button>
+    <div id="msg"></div>
+
+    <script type="module">
+        import { $g } from "../Modules/Myhelpers.js";
+
+        /* let btn1 = $("#button1").addEventListener("click",function(){
+
+        });
+        */
+
+        let btn1 = $g("#button1").addEventListener("click", requestJSON1);
+        let btn2 = $g("#button2").addEventListener("click", requestJSON2);
+        let btn3 = $g("#button3").addEventListener("click", requestJSON3);
+        let btn4 = $g("#button4").addEventListener("click", requestJSON4);
+        $g("#btnclear").addEventListener("click",()=>{msg.innerText="";});
+
+        const url = "https://raw.githubusercontent.com/apprunner/FileStorage/master/iPad_DataFixed.json";
+        let xhr = new XMLHttpRequest();
+        let msg = $g("#msg");
+
+        function requestJSON1() {
+            xhr.onload = function(){
+                msg.innerText = this.responseText;
+                console.log(this);
+            }
+            xhr.open("GET",url);
+            xhr.send();
+        }
+        function requestJSON2() {
+            xhr.onload = responseHandler;
+
+            xhr.open("GET",url);
+            xhr.send();
+        }
+        function responseHandler(){
+            msg.innerText = this.responseText;
+        }
+
+        function requestJSON3() {
+            xhr.addEventListener("load",responseHandler);
+            xhr.open("GET",url);
+            xhr.send();
+        }
+        function requestJSON4() {
+            xhr.onreadystatechange = () =>{msg.innerText = xhr.responseText;};
+            xhr.open("GET",url);
+            xhr.send();
+        }
+    </script>
+</body>
+
+</html>
