@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .btn-group button {
+        padding: 20px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .box {
+        position: relative;
+        display: flex;
+        width: 600px;
+        height: 600px;
+        background-color: red;
+    }
+
+    .block {
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div id="b1" class="block" style="top: 0; left: 0;"></div>
+        </div>
+        <div class="btn-group">
+            <button id="x-btn">X</button>
+            <button id="y-btn">Y</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('x-btn').addEventListener('click', function () {
+            moveX('b1', 200)
+                .then(res => {
+                    console.log(res);
+                });
+        });
+        document.getElementById('y-btn').addEventListener('click', function () {
+            moveY('b1', 200)
+                .then(res => {
+                    console.log(res);
+                });
+        });
+
+        function moveX(id, x) {
+            let block = document.getElementById(id);
+            let target = parseInt(block.style.left, 10) + x;
+            let time = 100;
+            let perMove = x / time;
+
+            return new Promise((resolve, reject) => {
+                for (let i = 1; i <= time; i++) {
+                    setTimeout(() => {
+                        block.style.left = parseInt(block.style.left, 10) + perMove + 'px';
+                        if (parseInt(block.style.left, 10) == target) {
+                            resolve('X移動完成');
+                        }
+                    }, 10 * i)
+                }
+            })
+        }
+
+        function moveY(id, y) {
+            let block = document.getElementById(id);
+            let target = parseInt(block.style.top, 10) + y;
+            let time = 100;
+            let perMove = y / time;
+
+            return new Promise((resolve, reject) => {
+                for (let i = 1; i <= time; i++) {
+                    setTimeout(() => {
+                        block.style.top = parseInt(block.style.top, 10) + perMove + 'px';
+                        if (parseInt(block.style.top, 10) == target) {
+                            resolve('Y移動完成');
+                        }
+                    }, 10 * i)
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

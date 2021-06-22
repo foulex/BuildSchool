@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //---xhr---
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json');
+        xhr.onload = function (event) {
+            // console.log(event);
+            // console.log(this.responseText); //xhr.responseText
+            // console.log(typeof(this.responseText));
+            // console.log(JSON.parse(this.responseText));
+        }
+
+        xhr.onerror = function () {
+            alert('error');
+        }
+        //以上都是對xhr設定
+
+        xhr.send();
+
+        //---Fetch---
+        let req = new Request(
+            'https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json',
+            {
+                method: 'GET',
+                //body、auth、cache
+            }
+        );
+        fetch(req)
+            .then(res => {
+                // console.log(res);
+                // console.log(res.text());
+                return res.text();
+            })
+            .then(result => {
+                // console.table(result);
+                // console.log(typeof (result));
+            });
+
+        $.ajax({
+            url: 'https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json',
+            method:'GET',
+            success:function(res){
+                //成功
+                console.log(res);
+                console.log(typeof(res));
+            },
+            error:function(err){
+                //錯誤
+                console.log(err);
+            }
+
+        });
+
+        //---Axios---
+        axios.get('https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json')
+            .then(res => {
+                console.log(res);
+                console.table(res.data);
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    </script>
+
+
+</body>
+
+</html>

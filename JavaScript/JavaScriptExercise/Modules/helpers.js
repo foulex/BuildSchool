@@ -8,4 +8,14 @@ function $g(selector) {
     let nodelist = document.querySelectorAll(selector);
     return nodelist.length == 1 ? nodelist[0] : nodelist;
 }
-export { $g };
+function $c(element){
+    return document.createElement(element);
+}
+function $cc(element, text) {
+    let el = document.createElement(element);
+    if (text !== null && text !== undefined && text.length > 0) {
+        el.innerText = text;
+    }
+    return el;
+}
+export { $g, $c, $cc }

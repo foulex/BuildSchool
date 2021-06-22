@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Promise -->
+    <script>
+        function getAreaList() {
+            return new Promise((resolve, reject) => {
+                $.ajax({
+                    url: '',
+                    method: 'GET',
+                    dataType: 'JSON',
+                    success: function (res) {
+                        resolve(res);
+                    },
+                    error: function (err) {
+                        reject(err);
+                    }
+                })
+            })
+        }
+        function doSome() {
+            return new Promise((resolve, reject) => {
+                $.ajax({
+                    url: '',
+                    method: 'GET',
+                    dataType: 'JSON',
+                    success: function (res) {
+                        resolve(res);
+                    },
+                    error: function (err) {
+                        reject(err);
+                    }
+                })
+            })
+        }
+        //有A、B兩件事
+        //A、B做完後還有事要做
+        function A() {
+            return new Promise(function (resolve, reject) {
+                console.log('A');
+
+                let isDone = true;
+                if (isDone) {
+                    return resolve('A成功');
+                } else {
+                    return reject('A失敗');
+                }
+            });
+        }
+
+        function B() {
+            return new Promise(function (resolve, reject) {
+                console.log('B');
+
+                let isDone = true;
+                if (isDone) {
+                    return resolve('B成功');
+                } else {
+                    return reject('B失敗');
+                }
+            });
+        }
+        //場景二：AB一起做，再來其他
+
+        A().then(res => {
+            console.log(res);
+            return B();
+            //這時候return，B就能同時作
+        }).then(res => {
+            console.log(res);
+            console.log('A與B都做完了');
+            //其他事
+        }).catch(err => {
+            console.log(err);
+        })
+
+        Promise.all([A(), B()])
+            .then(res => {
+                let [res1, res2] = res;
+                console.log(res1);
+                console.log(res2);
+            })
+            .catch(err => {
+                console.warn(err);
+            })
+        //場景一：A先做、再做B，然後其他
+
+        //
+        let getArea = axios.get('https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json');
+        let doSomething = axios.get('https://raw.githubusercontent.com/taihochan/JsonData/main/%E5%8F%B0%E7%81%A3%E8%A1%8C%E6%94%BF%E5%9C%B0%E5%8D%80.json');
+
+        //保證getArea、doSomething都要成功我才能作其他事
+        Promise.all([getArea, doSomething])
+            .then(res => {
+                console.log('getArea、doSomething都成功了');
+                let [res1, res2] = res;
+                console.log(res1);
+                console.log(res2);
+            })
+            .catch(err => {
+                console.warn(err);
+            });
+    </script>
+</body>
+
+</html>
