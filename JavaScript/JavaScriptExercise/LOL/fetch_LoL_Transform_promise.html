@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOL英雄聯盟</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron bg-success">
+        <h1>LOL英雄人物Transform資料轉換</h1>
+    </div>
+
+    <template id='templateTitle'>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </template>
+
+    <!-- 不在樣板的資料列設定任何資料 -->
+    <template id='templateRow'>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </template>
+
+    <script>
+        //此三全域變數須放在此Script區段, 不能放在script module區段,
+        //否則在瀏覽器的Console模式無法看見它們, 會發生未定義錯誤
+        let championObject = {};
+        const championArray = [];
+        const jsonUrl = "https://ddragon.leagueoflegends.com/cdn/10.22.1/data/zh_TW/champion.json";
+    </script>
+
+
+    <script type="module">
+        import { $g, $c } from "../modules/helpers.js";
+
+        // const jsonUrl = "https://ddragon.leagueoflegends.com/cdn/10.22.1/data/zh_TW/champion.json";
+        // let championObject = {};
+        // const championArray = [];
+        window.onload = function () {
+
+            //1.抓取網路資料
+            let promise = fetchChampions(jsonUrl);
+
+            promise.then(result => {
+                //result為回傳物件資料
+                championObject = result.data;
+                console.log(championObject);
+                //2.資料轉換Object > Array
+                DataTransformer(championObject, championArray)
+
+                console.log(championArray);
+                //3.產生Table列表
+                genTable(championArray);
+            })
+        }
+
+
+        function fetchChampions(url) {
+            const request = new Request(url);
+
+            return fetch(request).then(response => response.json())
+        }
+
+        function DataTransformer(championObject, championArray) {
+            //取得所有英雄名稱
+            let namesArray = Object.keys(championObject);
+
+            //將每筆英雄資料重建成Object, 並Push到championArray陣列子
+            namesArray.forEach((item, index) => {
+                championArray.push({
+                    name: item,
+                    img: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${item}_0.jpg`,
+                    hp: championObject[item].stats.hp,
+                    movespeed: championObject[item].stats.movespeed,
+                    armor: championObject[item].stats.armor,
+                    spellblock: championObject[item].stats.spellblock,
+                    attackrange: championObject[item].stats.attackrange
+                });
+            });
+        }
+
+        let table, thead, tbody;
+        function genTable(championArray) {
+            table = $c('table');
+            thead = $c('thead');
+            tbody = $c('tbody');
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            document.body.insertBefore(table, $g('#templateTitle'));
+
+            table.setAttribute("class", "table table-bordered table-striped");
+            thead.setAttribute("class", "thead-dark");
+
+            let titles = ["英雄名稱", "圖片", "hp", "movespeed", "armor", "spellblock", "attackrange"];
+            addThead(titles);
+
+            championArray.forEach(item => {
+                item.img = `<img src="${item.img}">`;
+                addTbody(Object.values(item));
+            });
+        }
+
+        function addThead(titleArray) {
+            //取得樣板
+            let templateTitle = $g('#templateTitle');
+            //直接加入，樣板節點會被搬到DOM，等於清空<template>內容
+            //thead.append(templateTitle.content);
+
+            let cloneContent = templateTitle.content.cloneNode(true);
+            //th須先查詢，否則append之後，因節點被移走，所以查不到
+            let ths = cloneContent.querySelectorAll('th');
+
+            // ths[0].innerText = titleArray[0];
+            // ths[1].innerText = titleArray[1];
+            // ths[2].innerText = titleArray[2];
+            // ths[3].innerText = titleArray[3];
+
+            titleArray.forEach((item, index) => {
+                ths[index].innerText = item;
+            });
+
+            thead.append(cloneContent);
+        }
+
+        //每次接受一個陣列
+        function addTbody(rowArray) {
+            let templateRow = $g('#templateRow');
+            let cloneContent = templateRow.content.cloneNode(true);
+            let tds = cloneContent.querySelectorAll('td');
+
+            // tds[0].innerText = rowArray[0];
+            // tds[1].innerText = rowArray[1];
+            // tds[2].innerText = rowArray[2];
+            // tds[3].innerText = rowArray[3];
+
+            rowArray.forEach((item, index) => {
+                tds[index].innerHTML = item;
+            });
+
+            tbody.append(cloneContent);
+        }
+    </script>
+</body>
+
+</html>

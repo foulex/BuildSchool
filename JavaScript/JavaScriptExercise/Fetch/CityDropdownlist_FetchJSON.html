@@ -72,10 +72,15 @@
             let cityValue = citySelect.selectedOptions[0].value;
             let cityText = citySelect.selectedOptions[0].text;
 
+            debugger;
             //如果未選取city則return(防呆)
             if (cityValue == '') {
                 districtSelect.disabled = true;
                 msg.innerHTML = "";
+
+                districtSelect.length = 1; //只清空第二個下拉式選單
+                districtSelect.disabled = true;
+                submitButton.disabled = true;
                 return;
             }
 
@@ -92,10 +97,10 @@
             let cityArray = zipcodeArray.filter(item => item.city == cityText);
             let districts = cityArray[0].districts;
 
-            districts.forEach((item,index)=>{
-                let option1=document.createElement("option");
-                option1.value=item.district;
-                option1.text=item.district+"-"+item.zipcode;
+            districts.forEach((item, index) => {
+                let option1 = document.createElement("option");
+                option1.value = item.district;
+                option1.text = item.district + "-" + item.zipcode;
 
                 districtSelect.add(option1);
             })
@@ -103,14 +108,31 @@
         }
 
         districtSelect.addEventListener('change', function () {
+            let cityValue = citySelect.selectedOptions[0].value;
+            let cityText = citySelect.selectedOptions[0].text;
+            let districtValue = districtSelect.selectedOptions[0].value;
+            let districtText = districtSelect.selectedOptions[0].text;
 
+            if (cityValue != "" && districtValue != "") {
+                msg.innerText = cityText + ", " + districtText;
+                submitButton.disabled = false;
+            } else {
+                msg.innerHTML = "";
+                submitButton.disabled = true;
+            }
         });
+        //Submit提交資料
 
         submitButton.addEventListener('click', submitData);
-
-        //Submit提交資料
         function submitData() {
-
+            alert("你提交了資料");
+            //FormData
+            let formData = new FormData();
+            formData.append("city", citySelect.selectedOptions[0].value);
+            formData.append("district", districtSelect.selectedOptions[0].text);
+            let xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://www.test.com.tw/");
+            xhr.send(formData);
         }
     </script>
 </body>
