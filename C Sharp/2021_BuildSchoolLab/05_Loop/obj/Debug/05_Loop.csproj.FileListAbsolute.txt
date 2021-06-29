@@ -1,0 +1,6 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\bin\Debug\05_Loop.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\bin\Debug\05_Loop.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\bin\Debug\05_Loop.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\obj\Debug\05_Loop.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\obj\Debug\05_Loop.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\05_Loop\obj\Debug\05_Loop.pdb

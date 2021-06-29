@@ -1,0 +1,7 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\bin\Debug\06_Method.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\bin\Debug\06_Method.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\bin\Debug\06_Method.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\obj\Debug\06_Method.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\obj\Debug\06_Method.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\obj\Debug\06_Method.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\06_Method\obj\Debug\06_Method.csprojAssemblyReference.cache

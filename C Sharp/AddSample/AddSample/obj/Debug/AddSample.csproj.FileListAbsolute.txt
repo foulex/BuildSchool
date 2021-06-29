@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\bin\Debug\AddSample.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\bin\Debug\AddSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\bin\Debug\AddSample.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\obj\Debug\AddSample.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\obj\Debug\AddSample.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\obj\Debug\AddSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AddSample\AddSample\obj\Debug\AddSample.pdb

@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\bin\Debug\ITeratorSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\bin\Debug\ITeratorSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\bin\Debug\ITeratorSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\obj\Debug\ITeratorSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\obj\Debug\ITeratorSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\obj\Debug\ITeratorSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ITeratorSamples\ITeratorSample001\obj\Debug\ITeratorSample001.csprojAssemblyReference.cache

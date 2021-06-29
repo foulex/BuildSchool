@@ -1,0 +1,14 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\bin\Debug\H4_01_費氏數列.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\bin\Debug\H4_01_費氏數列.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\bin\Debug\H4_01_費氏數列.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\obj\Debug\H4_01_費氏數列.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\obj\Debug\H4_01_費氏數列.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\obj\Debug\H4_01_費氏數列.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H4_01_費氏數列\obj\Debug\H4_01_費氏數列.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\obj\Debug\H4_01_費氏數列.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\obj\Debug\H4_01_費氏數列.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\obj\Debug\H4_01_費氏數列.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\obj\Debug\H4_01_費氏數列.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\bin\Debug\H4_01_費氏數列.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\bin\Debug\H4_01_費氏數列.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_01_費氏數列\bin\Debug\H4_01_費氏數列.pdb

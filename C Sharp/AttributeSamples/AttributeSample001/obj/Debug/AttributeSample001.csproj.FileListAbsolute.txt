@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\obj\Debug\AttributeSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\obj\Debug\AttributeSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\bin\Debug\AttributeSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\bin\Debug\AttributeSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\bin\Debug\AttributeSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\obj\Debug\AttributeSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AttributeSamples\AttributeSample001\obj\Debug\AttributeSample001.pdb

@@ -1,0 +1,13 @@
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\bin\Debug\JsonSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\bin\Debug\JsonSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\bin\Debug\JsonSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\bin\Debug\Newtonsoft.Json.dll
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\bin\Debug\Newtonsoft.Json.xml
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.csproj.CopyComplete
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\JsonSamples\JsonSample001\obj\Debug\JsonSample001.pdb

@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\bin\Debug\Hackathon01_5_LifeNumber.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\bin\Debug\Hackathon01_5_LifeNumber.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\bin\Debug\Hackathon01_5_LifeNumber.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_5_LifeNumber\obj\Debug\Hackathon01_5_LifeNumber.pdb

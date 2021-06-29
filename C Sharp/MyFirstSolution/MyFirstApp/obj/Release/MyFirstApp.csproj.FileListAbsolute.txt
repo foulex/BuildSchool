@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\bin\Release\MyFirstApp.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\bin\Release\MyFirstApp.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\bin\Release\MyFirstApp.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\obj\Release\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\obj\Release\MyFirstApp.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\MyFirstApp\obj\Release\MyFirstApp.pdb

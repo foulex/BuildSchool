@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\bin\Debug\StaticSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\bin\Debug\StaticSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\bin\Debug\StaticSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\obj\Debug\StaticSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\obj\Debug\StaticSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\obj\Debug\StaticSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\StaticSamples\StaticSample001\obj\Debug\StaticSample001.pdb

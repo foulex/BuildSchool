@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\bin\Debug\ExLinqSample006.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\bin\Debug\ExLinqSample006.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\bin\Debug\ExLinqSample006.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\obj\Debug\ExLinqSample006.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\obj\Debug\ExLinqSample006.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\obj\Debug\ExLinqSample006.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExLinqSamples\ExLinqSample006\obj\Debug\ExLinqSample006.pdb

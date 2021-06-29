@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\bin\Debug\DoWhereSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\bin\Debug\DoWhereSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\bin\Debug\DoWhereSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\obj\Debug\DoWhereSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\obj\Debug\DoWhereSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\obj\Debug\DoWhereSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\DoWhereSamples\DoWhereSample001\obj\Debug\DoWhereSample001.pdb

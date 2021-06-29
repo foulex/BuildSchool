@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XORPaAHo5VmW4Rj2fpIHyA+USqQnqHLQpk7qs7gZKdMCGcMXAMElP4UY+CRtyjoWoXAuAd4S5GNMFelkQp4z3A==",
+  "success": true,
+  "projectFilePath": "E:\\OneDrive\\Program\\2021 C#\\範例\\RectangleSamples\\RectangleLibrary\\RectangleLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\foule\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

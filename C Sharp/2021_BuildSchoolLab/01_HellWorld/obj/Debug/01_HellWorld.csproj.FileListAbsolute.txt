@@ -1,0 +1,6 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\bin\Debug\01_HellWorld.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\bin\Debug\01_HellWorld.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\bin\Debug\01_HellWorld.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\obj\Debug\01_HellWorld.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\obj\Debug\01_HellWorld.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\01_HellWorld\obj\Debug\01_HellWorld.pdb

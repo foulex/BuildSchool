@@ -1,0 +1,12 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.pdb
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.exe.config
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.exe
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\bin\Debug\Homework_9x9.pdb
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.csproj.CoreCompileInputs.cache
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.exe
+E:\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Homework_9x9\obj\Debug\Homework_9x9.pdb

@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\bin\Debug\ExtensionSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\bin\Debug\ExtensionSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\bin\Debug\ExtensionSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\obj\Debug\ExtensionSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\obj\Debug\ExtensionSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExtensionSamples\ExtensionSample001\obj\Debug\ExtensionSample001.pdb

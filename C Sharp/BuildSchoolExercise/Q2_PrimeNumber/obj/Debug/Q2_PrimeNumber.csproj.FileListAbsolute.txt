@@ -1,0 +1,7 @@
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\bin\Debug\Q2_PrimeNumber.exe.config
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\bin\Debug\Q2_PrimeNumber.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\bin\Debug\Q2_PrimeNumber.pdb
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\obj\Debug\Q2_PrimeNumber.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\obj\Debug\Q2_PrimeNumber.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\obj\Debug\Q2_PrimeNumber.pdb
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q2_PrimeNumber\obj\Debug\Q2_PrimeNumber.csprojAssemblyReference.cache

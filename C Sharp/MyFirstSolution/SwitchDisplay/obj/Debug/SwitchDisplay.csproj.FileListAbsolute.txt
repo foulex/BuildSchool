@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\bin\Debug\SwitchDisplay.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\bin\Debug\SwitchDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\bin\Debug\SwitchDisplay.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\obj\Debug\SwitchDisplay.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\obj\Debug\SwitchDisplay.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\obj\Debug\SwitchDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\SwitchDisplay\obj\Debug\SwitchDisplay.pdb

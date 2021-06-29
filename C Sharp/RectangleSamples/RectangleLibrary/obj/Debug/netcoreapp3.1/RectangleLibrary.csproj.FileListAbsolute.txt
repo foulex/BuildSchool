@@ -1,0 +1,9 @@
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\bin\Debug\netcoreapp3.1\RectangleLibrary.deps.json
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\bin\Debug\netcoreapp3.1\RectangleLibrary.dll
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\bin\Debug\netcoreapp3.1\RectangleLibrary.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.AssemblyInfoInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.AssemblyInfo.cs
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.dll
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleSamples\RectangleLibrary\obj\Debug\netcoreapp3.1\RectangleLibrary.csprojAssemblyReference.cache

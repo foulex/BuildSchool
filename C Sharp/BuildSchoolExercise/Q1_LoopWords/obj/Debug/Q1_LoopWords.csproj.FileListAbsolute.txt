@@ -1,0 +1,14 @@
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.exe.config
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.pdb
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.csprojAssemblyReference.cache
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.pdb
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.exe.config
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.exe
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\bin\Debug\Q1_LoopWords.pdb
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.csprojAssemblyReference.cache
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.csproj.CoreCompileInputs.cache
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.exe
+E:\OneDrive\文件\程式\2021 C#\BuildSchoolExercise\Q1_LoopWords\obj\Debug\Q1_LoopWords.pdb

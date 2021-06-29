@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\bin\Debug\ListSample002.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\bin\Debug\ListSample002.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\bin\Debug\ListSample002.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ListSamples\ListSample002\obj\Debug\ListSample002.pdb

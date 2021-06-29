@@ -1,0 +1,7 @@
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\bin\Debug\Q3_StringReplace.exe.config
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\bin\Debug\Q3_StringReplace.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\bin\Debug\Q3_StringReplace.pdb
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\obj\Debug\Q3_StringReplace.csprojAssemblyReference.cache
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\obj\Debug\Q3_StringReplace.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\obj\Debug\Q3_StringReplace.exe
+C:\Users\foule\Desktop\2021 C#\BuildSchoolExercise\Q3_StringReplace\obj\Debug\Q3_StringReplace.pdb

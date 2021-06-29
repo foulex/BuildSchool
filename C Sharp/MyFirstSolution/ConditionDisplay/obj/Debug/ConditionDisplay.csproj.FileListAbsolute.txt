@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\bin\Debug\ConditionDisplay.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ConditionDisplay\obj\Debug\ConditionDisplay.pdb

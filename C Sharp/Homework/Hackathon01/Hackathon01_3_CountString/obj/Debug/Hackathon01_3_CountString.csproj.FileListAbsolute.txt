@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\bin\Debug\Hackathon01_3_CountString.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\bin\Debug\Hackathon01_3_CountString.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\bin\Debug\Hackathon01_3_CountString.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\obj\Debug\Hackathon01_3_CountString.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\obj\Debug\Hackathon01_3_CountString.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\obj\Debug\Hackathon01_3_CountString.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_3_CountString\obj\Debug\Hackathon01_3_CountString.pdb

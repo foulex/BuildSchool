@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\bin\Debug\WinFormSolution.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\bin\Debug\WinFormSolution.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\bin\Debug\WinFormSolution.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstWinForm\WinFormSolution\obj\Debug\WinFormSolution.pdb

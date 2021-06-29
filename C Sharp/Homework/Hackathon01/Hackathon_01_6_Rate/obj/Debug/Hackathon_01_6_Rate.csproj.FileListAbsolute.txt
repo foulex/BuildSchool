@@ -1,0 +1,2 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\Hackathon01\Hackathon_01_6_Rate\obj\Debug\Hackathon_01_6_Rate.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\Hackathon01\Hackathon_01_6_Rate\obj\Debug\Hackathon_01_6_Rate.csprojAssemblyReference.cache

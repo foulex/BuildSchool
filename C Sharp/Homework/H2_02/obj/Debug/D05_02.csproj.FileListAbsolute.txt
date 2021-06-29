@@ -1,0 +1,7 @@
+E:\OneDrive\Program\2021 C#\Homework\D05_02\bin\Debug\D05_02.exe.config
+E:\OneDrive\Program\2021 C#\Homework\D05_02\bin\Debug\D05_02.exe
+E:\OneDrive\Program\2021 C#\Homework\D05_02\bin\Debug\D05_02.pdb
+E:\OneDrive\Program\2021 C#\Homework\D05_02\obj\Debug\D05_02.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\D05_02\obj\Debug\D05_02.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\D05_02\obj\Debug\D05_02.exe
+E:\OneDrive\Program\2021 C#\Homework\D05_02\obj\Debug\D05_02.pdb

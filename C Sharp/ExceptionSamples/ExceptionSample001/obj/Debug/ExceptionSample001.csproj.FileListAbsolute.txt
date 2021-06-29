@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\bin\Debug\ExceptionSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\bin\Debug\ExceptionSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\bin\Debug\ExceptionSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\obj\Debug\ExceptionSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\obj\Debug\ExceptionSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExceptionSamples\ExceptionSample001\obj\Debug\ExceptionSample001.pdb

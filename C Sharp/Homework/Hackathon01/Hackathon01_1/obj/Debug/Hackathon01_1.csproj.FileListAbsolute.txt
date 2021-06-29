@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\bin\Debug\Hackathon01_1.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\bin\Debug\Hackathon01_1.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\bin\Debug\Hackathon01_1.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\obj\Debug\Hackathon01_1.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\obj\Debug\Hackathon01_1.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\obj\Debug\Hackathon01_1.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon01_1\obj\Debug\Hackathon01_1.pdb

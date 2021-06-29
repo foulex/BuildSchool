@@ -1,0 +1,7 @@
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\bin\Debug\GenericSample001.exe.config
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\bin\Debug\GenericSample001.exe
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\bin\Debug\GenericSample001.pdb
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\obj\Debug\GenericSample001.csprojAssemblyReference.cache
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\obj\Debug\GenericSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\obj\Debug\GenericSample001.exe
+C:\Users\foule\source\repos\GenericSamples\GenericSample001\obj\Debug\GenericSample001.pdb

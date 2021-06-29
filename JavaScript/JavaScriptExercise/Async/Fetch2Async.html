@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let imageUrl = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg";
+
+        fetch(imageUrl)
+            .then(response => response.blob())
+            .then(myBlog => {
+                let objectURL = URL.createObjectURL(myBlog);
+                let image = document.createElement("img");
+                image.src = objectURL;
+
+                document.body.appendChild(image);
+            })
+            .catch(ex => {
+                console.log("error" + ex);
+            });
+
+        const url = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg";
+        let url2 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg";
+        async function myFetch(){
+            let response = await fetch(url2);
+            return await response.blob();
+        }
+
+function asyncImage(){
+    fetchasyncImage()
+}
+
+        asyncImage()
+        .then(blob=>{
+            let objectURL=URL.createObjectURL(blob);
+            let image = document.createElement("img");
+            image.src= objectURL;
+            document.body.appendChild(image);
+        })
+        .catch(ex=>{
+            console.log(ex);
+        })
+
+        // fetchsync()
+        //     .then()
+        //     .catch();
+    </script>
+</body>
+
+</html>

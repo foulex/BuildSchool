@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\bin\Debug\D2_03.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\bin\Debug\D2_03.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\bin\Debug\D2_03.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\obj\Debug\D2_03.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\obj\Debug\D2_03.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\obj\Debug\D2_03.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_03\obj\Debug\D2_03.pdb

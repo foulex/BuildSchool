@@ -1,0 +1,9 @@
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\bin\Debug\FarmerMove2.exe.config
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\bin\Debug\FarmerMove2.exe
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\bin\Debug\FarmerMove2.pdb
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.Properties.Resources.resources
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.csproj.GenerateResource.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.exe
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\FarmerMove2\obj\Debug\FarmerMove2.pdb

@@ -1,0 +1,10 @@
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\D3_FarmerShip.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\FarmerShip.Form.resources
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\FarmerShip.Properties.Resources.resources
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\D3_FarmerShip.csproj.GenerateResource.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\D3_FarmerShip.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\bin\Debug\FarmerShip.exe.config
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\bin\Debug\FarmerShip.exe
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\bin\Debug\FarmerShip.pdb
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\FarmerShip.exe
+E:\OneDrive\Program\2021 C#\Homework\FarmerShip\obj\Debug\FarmerShip.pdb

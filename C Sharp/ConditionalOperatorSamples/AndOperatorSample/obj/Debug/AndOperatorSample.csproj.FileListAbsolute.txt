@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\bin\Debug\AndOperatorSample.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\bin\Debug\AndOperatorSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\bin\Debug\AndOperatorSample.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\obj\Debug\AndOperatorSample.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\obj\Debug\AndOperatorSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ConditionalOperatorSamples\AndOperatorSample\obj\Debug\AndOperatorSample.pdb

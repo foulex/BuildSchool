@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\bin\Debug\ContructorSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\bin\Debug\ContructorSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\bin\Debug\ContructorSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\obj\Debug\ContructorSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\obj\Debug\ContructorSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\obj\Debug\ContructorSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ContructorSamples\ContructorSample001\obj\Debug\ContructorSample001.pdb

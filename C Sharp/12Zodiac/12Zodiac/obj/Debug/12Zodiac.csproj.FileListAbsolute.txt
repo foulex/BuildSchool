@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\bin\Debug\12Zodiac.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\bin\Debug\12Zodiac.exe
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\bin\Debug\12Zodiac.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\obj\Debug\12Zodiac.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\obj\Debug\12Zodiac.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\obj\Debug\12Zodiac.exe
+C:\Users\foule\OneDrive\Program\2021 C#\範例\12Zodiac\12Zodiac\obj\Debug\12Zodiac.pdb

@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\bin\Debug\Hackathon_01_2_TemperatureTransform.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\bin\Debug\Hackathon_01_2_TemperatureTransform.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\bin\Debug\Hackathon_01_2_TemperatureTransform.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Hackathon01\Hackathon_01_2_TemperatureTransform\obj\Debug\Hackathon_01_2_TemperatureTransform.pdb

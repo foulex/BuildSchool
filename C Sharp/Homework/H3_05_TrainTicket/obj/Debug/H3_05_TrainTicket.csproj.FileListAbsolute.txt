@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\bin\Debug\H3_05_TrainTicket.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\bin\Debug\H3_05_TrainTicket.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\bin\Debug\H3_05_TrainTicket.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_05_TrainTicket\obj\Debug\H3_05_TrainTicket.pdb

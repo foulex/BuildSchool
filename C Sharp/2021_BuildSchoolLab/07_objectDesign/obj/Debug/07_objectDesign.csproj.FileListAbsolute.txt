@@ -1,0 +1,6 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\bin\Debug\07_objectDesign.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\bin\Debug\07_objectDesign.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\bin\Debug\07_objectDesign.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\obj\Debug\07_objectDesign.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\obj\Debug\07_objectDesign.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\07_objectDesign\obj\Debug\07_objectDesign.pdb

@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\bin\Debug\ShapeLibrary.dll
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\bin\Debug\ShapeLibrary.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\obj\Debug\ShapeLibrary.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\obj\Debug\ShapeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\obj\Debug\ShapeLibrary.csproj.CopyComplete
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\obj\Debug\ShapeLibrary.dll
+C:\Users\foule\OneDrive\Program\2021 C#\範例\ShapeLibrary\ShapeLibrary\obj\Debug\ShapeLibrary.pdb

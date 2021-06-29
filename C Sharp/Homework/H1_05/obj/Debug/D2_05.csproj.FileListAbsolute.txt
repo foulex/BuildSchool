@@ -1,0 +1,13 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.pdb
+E:\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.exe.config
+E:\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.exe
+E:\OneDrive\Program\2021 C#\Homework\D2_05\bin\Debug\D2_05.pdb
+E:\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.exe
+E:\OneDrive\Program\2021 C#\Homework\D2_05\obj\Debug\D2_05.pdb

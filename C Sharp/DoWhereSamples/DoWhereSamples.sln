@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhereSample001", "DoWhereSample001\DoWhereSample001.csproj", "{25A57946-96CB-40C3-A0B7-32CDE223B4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhereSample006", "DoWhereSample006\DoWhereSample006.csproj", "{CE67A281-2D2D-4CC7-AC6F-DA68A20BA351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25A57946-96CB-40C3-A0B7-32CDE223B4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A57946-96CB-40C3-A0B7-32CDE223B4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A57946-96CB-40C3-A0B7-32CDE223B4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A57946-96CB-40C3-A0B7-32CDE223B4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE67A281-2D2D-4CC7-AC6F-DA68A20BA351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE67A281-2D2D-4CC7-AC6F-DA68A20BA351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE67A281-2D2D-4CC7-AC6F-DA68A20BA351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE67A281-2D2D-4CC7-AC6F-DA68A20BA351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AEEA08D-7F55-4D23-A894-672D3E93A4D7}
+	EndGlobalSection
+EndGlobal

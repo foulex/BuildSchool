@@ -1,0 +1,14 @@
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.exe.config
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.exe
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.pdb
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.exe
+E:\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\bin\Debug\H3_04_Translation.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_04_Translation\obj\Debug\H3_04_Translation.pdb

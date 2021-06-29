@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\bin\Debug\NullableSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\bin\Debug\NullableSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\bin\Debug\NullableSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\obj\Debug\NullableSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\obj\Debug\NullableSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\obj\Debug\NullableSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\NullableSamples\NullableSample001\obj\Debug\NullableSample001.pdb

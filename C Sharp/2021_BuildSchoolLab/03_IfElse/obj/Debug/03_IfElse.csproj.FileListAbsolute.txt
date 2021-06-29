@@ -1,0 +1,7 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\bin\Debug\03_IfElse.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\bin\Debug\03_IfElse.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\bin\Debug\03_IfElse.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\obj\Debug\03_IfElse.csprojAssemblyReference.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\obj\Debug\03_IfElse.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\obj\Debug\03_IfElse.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\03_IfElse\obj\Debug\03_IfElse.pdb

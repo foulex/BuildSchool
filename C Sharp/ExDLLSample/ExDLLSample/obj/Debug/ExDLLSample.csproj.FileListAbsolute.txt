@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\bin\Debug\ExDLLSample.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\bin\Debug\ExDLLSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\bin\Debug\ExDLLSample.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\bin\Debug\MyLibrary.dll
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\bin\Debug\MyLibrary.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\obj\Debug\ExDLLSample.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\obj\Debug\ExDLLSample.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\obj\Debug\ExDLLSample.csproj.CopyComplete
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\obj\Debug\ExDLLSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\ExDLLSample\ExDLLSample\obj\Debug\ExDLLSample.pdb

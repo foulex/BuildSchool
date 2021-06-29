@@ -1,0 +1,7 @@
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\obj\Debug\H3_06_Calculate.csprojAssemblyReference.cache
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\obj\Debug\H3_06_Calculate.csproj.CoreCompileInputs.cache
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\bin\Debug\H3_06_Calculate.exe.config
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\bin\Debug\H3_06_Calculate.exe
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\bin\Debug\H3_06_Calculate.pdb
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\obj\Debug\H3_06_Calculate.exe
+E:\OneDrive\Program\2021 C#\Homework\H3_06_Calculate\obj\Debug\H3_06_Calculate.pdb

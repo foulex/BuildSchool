@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\bin\Debug\Input.exe.config
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\bin\Debug\Input.exe
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\bin\Debug\Input.pdb
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\obj\Debug\Input.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\obj\Debug\Input.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\obj\Debug\Input.exe
+C:\Users\foule\OneDrive\文件\程式\2021 C#\2021_BuildSchoolLab\Input\obj\Debug\Input.pdb

@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\bin\Debug\DelegateSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\bin\Debug\DelegateSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\bin\Debug\DelegateSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\obj\Debug\DelegateSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\obj\Debug\DelegateSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\DelegateSamples\DelegateSample001\obj\Debug\DelegateSample001.pdb

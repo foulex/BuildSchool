@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\bin\Debug\ForeachSample.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\bin\Debug\ForeachSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\bin\Debug\ForeachSample.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\obj\Debug\ForeachSample.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\obj\Debug\ForeachSample.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\obj\Debug\ForeachSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\LoopSamples\ForeachSample\obj\Debug\ForeachSample.pdb

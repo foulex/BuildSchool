@@ -1,0 +1,5 @@
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleWindows\RectangleWindows\obj\Debug\RectangleWindows.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleWindows\RectangleWindows\obj\Debug\RectangleWindows.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleWindows\RectangleWindows\obj\Debug\RectangleWindows.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleWindows\RectangleWindows\obj\Debug\RectangleWindows.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\RectangleWindows\RectangleWindows\obj\Debug\RectangleWindows.csproj.CoreCompileInputs.cache

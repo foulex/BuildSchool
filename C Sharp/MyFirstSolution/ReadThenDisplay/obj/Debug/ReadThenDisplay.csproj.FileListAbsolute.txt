@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\bin\Debug\ReadThenDisplay.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\bin\Debug\ReadThenDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\bin\Debug\ReadThenDisplay.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\obj\Debug\ReadThenDisplay.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\obj\Debug\ReadThenDisplay.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\obj\Debug\ReadThenDisplay.exe
+C:\Users\foule\OneDrive\Program\2021 C#\MyFirstSolution\ReadThenDisplay\obj\Debug\ReadThenDisplay.pdb

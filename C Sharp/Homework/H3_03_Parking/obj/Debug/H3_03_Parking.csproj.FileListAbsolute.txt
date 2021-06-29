@@ -1,0 +1,10 @@
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\bin\Debug\H3_03_Parking.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\bin\Debug\H3_03_Parking.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\bin\Debug\H3_03_Parking.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.Form1.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.Properties.Resources.resources
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.csproj.GenerateResource.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.exe
+C:\Users\foule\OneDrive\Program\2021 C#\Homework\H3_03_Parking\obj\Debug\H3_03_Parking.pdb

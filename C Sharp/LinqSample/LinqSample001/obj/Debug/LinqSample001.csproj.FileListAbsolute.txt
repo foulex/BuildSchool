@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\bin\Debug\LinqSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\bin\Debug\LinqSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\bin\Debug\LinqSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\obj\Debug\LinqSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\obj\Debug\LinqSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\obj\Debug\LinqSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\LinqSample\LinqSample001\obj\Debug\LinqSample001.pdb

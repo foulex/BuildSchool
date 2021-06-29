@@ -1,0 +1,6 @@
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\bin\Debug\BreakSample.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\bin\Debug\BreakSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\bin\Debug\BreakSample.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\obj\Debug\BreakSample.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\obj\Debug\BreakSample.exe
+C:\Users\foule\OneDrive\Program\2021 C#\JumpSamples\BreakSample\obj\Debug\BreakSample.pdb

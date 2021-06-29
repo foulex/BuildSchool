@@ -1,0 +1,7 @@
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\bin\Debug\AllClassSample001.exe.config
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\bin\Debug\AllClassSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\bin\Debug\AllClassSample001.pdb
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\obj\Debug\AllClassSample001.csprojAssemblyReference.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\obj\Debug\AllClassSample001.csproj.CoreCompileInputs.cache
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\obj\Debug\AllClassSample001.exe
+C:\Users\foule\OneDrive\Program\2021 C#\AllClassSamples\AllClassSample001\obj\Debug\AllClassSample001.pdb

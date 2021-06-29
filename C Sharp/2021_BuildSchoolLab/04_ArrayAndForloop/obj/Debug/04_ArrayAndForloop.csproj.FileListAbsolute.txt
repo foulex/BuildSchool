@@ -1,0 +1,7 @@
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\bin\Debug\04_ArrayAndForloop.exe.config
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\bin\Debug\04_ArrayAndForloop.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\bin\Debug\04_ArrayAndForloop.pdb
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\obj\Debug\04_ArrayAndForloop.csprojAssemblyReference.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\obj\Debug\04_ArrayAndForloop.csproj.CoreCompileInputs.cache
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\obj\Debug\04_ArrayAndForloop.exe
+C:\Users\foule\Desktop\2021 C#\2021_BuildSchoolLab\04_ArrayAndForloop\obj\Debug\04_ArrayAndForloop.pdb
