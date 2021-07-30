@@ -27,3 +27,14 @@ _斜體_
 
 >區塊一
 >>區塊二
+
+[google](https://www.google.com/)
+
+![圖片](https://www.google.com/logos/doodles/2021/doodle-champion-island-games-july-29-6753651837109022-s.png)
+
+| 標題 | 內容 |
+|:--- | 測試 |
+
+```js
+console.log("hi")
+```
